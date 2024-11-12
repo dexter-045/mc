@@ -1,0 +1,18 @@
+_delay: CODE, 31060 0 54
+__stringdata: SMALLCONST, 2071 0 71
+_dpowers: SMALLCONST, 2053 0 10
+_main: CODE, 31328 0 540
+_SendData: CODE, 30892 0 40
+_SPI_Transmit: CODE, 30792 0 22
+__initialization: CODE, 30974 0 32
+___lwdiv: CODE, 31242 0 86
+_SendInstruction: CODE, 30852 0 40
+_InitLCD: CODE, 31016 0 44
+_isdigit: CODE, 30932 0 42
+_sprintf: CODE, 31868 0 900
+_hexpowers: SMALLCONST, 2063 0 8
+_InitSPI: CODE, 30814 0 38
+___lwmod: CODE, 31172 0 70
+___wmul: CODE, 31114 0 58
+_SPI_Receive: CODE, 30774 0 18
+Total: 2073

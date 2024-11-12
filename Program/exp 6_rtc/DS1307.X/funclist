@@ -1,0 +1,21 @@
+_lcd_delay: CODE, 31612 0 54
+_i2c_start: CODE, 31304 0 10
+__stringdata: SMALLCONST, 2061 0 57
+_i2c_restart: CODE, 31294 0 10
+_main: CODE, 31872 0 330
+_SendData: CODE, 31440 0 40
+__initialization: CODE, 31354 0 12
+___lwdiv: CODE, 31786 0 86
+_SendInstruction: CODE, 31400 0 40
+_InitLCD: CODE, 31522 0 44
+_i2c_write: CODE, 31324 0 12
+_isdigit: CODE, 31480 0 42
+_sprintf: CODE, 32202 0 566
+_hexpowers: SMALLCONST, 2053 0 8
+_get_reg: CODE, 31724 0 62
+_i2c_stop: CODE, 31314 0 10
+_i2c_read: CODE, 31376 0 24
+_i2c_init: CODE, 31336 0 18
+_set_reg: CODE, 31566 0 46
+___wmul: CODE, 31666 0 58
+Total: 1529
