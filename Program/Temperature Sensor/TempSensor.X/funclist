@@ -1,0 +1,16 @@
+_lcd_delay: CODE, 31866 0 54
+__stringdata: SMALLCONST, 2063 0 20
+_ADCInit: CODE, 31676 0 14
+_dpowers: SMALLCONST, 2053 0 10
+_main: CODE, 32242 0 168
+_SendData: CODE, 31782 0 40
+_Read_ADC: CODE, 31712 0 30
+__initialization: CODE, 31690 0 12
+___lwdiv: CODE, 32048 0 86
+_SendInstruction: CODE, 31742 0 40
+_InitLCD: CODE, 31822 0 44
+_sprintf: CODE, 32410 0 358
+___lwmod: CODE, 31978 0 70
+_LCD_display: CODE, 32134 0 108
+___wmul: CODE, 31920 0 58
+Total: 1112
