@@ -1,0 +1,25 @@
+1. INTERNAL MEMORY TRANSFER
+INCLUDE 89C51.MC
+ORG  0000H			;initialize
+MOV R0,#40H		; Memory pointer 1
+MOV R1, #50H		; Memory pointer 2
+MOV R7, #05H		; Counter 1
+UP: MOV A, @ R0		; Get data from pointer1 into Accumulator
+MOV B, @R1		; Get data from pointer2 into B Register
+MOV @R0,B			; Store data of memory block1 into memory block2
+MOV @R1,A
+INC R0			; Increment memory Pointers
+INC R1
+DJNZ R7, UP			; Repeat the transfer till counter not equal to 0
+END
+
+2. EXTERNAL MEMORY TRANSFER
+INCLUDE 89C51.MC
+ORG  0000H			;initialize
+MOV DPTR, #0035H		; Initialize DPTR with external memory address
+MOVA, #10 H		;Load Accumulator with data
+MOVX @DPTR, A		; Store contents of A to the address pointed by DPTR
+CLR A				; Clear A
+MOV DPTR, #0035H		; Again load the contents of memory location pointed by DPTR
+MOVX A, @DPTR
+END
