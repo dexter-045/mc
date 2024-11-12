@@ -1,0 +1,10 @@
+_InitUART: CODE, 32442 0 70
+__stringdata: SMALLCONST, 2053 0 57
+_putch: CODE, 32364 0 12
+_main: CODE, 32390 0 52
+_GetChar: CODE, 32346 0 8
+_SendChar: CODE, 32376 0 14
+__initialization: CODE, 32354 0 0
+___lldiv: CODE, 32634 0 134
+_printf: CODE, 32512 0 122
+Total: 469
