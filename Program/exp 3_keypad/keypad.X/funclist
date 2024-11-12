@@ -1,0 +1,10 @@
+_lcd_delay: CODE, 32492 0 54
+__stringdata: SMALLCONST, 2069 0 15
+_main: CODE, 32546 0 96
+_SendData: CODE, 32408 0 40
+__initialization: CODE, 32358 0 0
+_SendInstruction: CODE, 32368 0 40
+_InitLCD: CODE, 32448 0 44
+_KeyLookupTbl: SMALLCONST, 2053 0 16
+_ReadKey: CODE, 32642 0 126
+Total: 431
